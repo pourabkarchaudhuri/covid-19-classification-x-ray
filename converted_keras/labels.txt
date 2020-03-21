@@ -1,0 +1,2 @@
+0 COVID-19-Positive
+1 COVID-19-Negative
