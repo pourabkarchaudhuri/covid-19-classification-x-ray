@@ -81,6 +81,10 @@ def index():
         else:
             return render_template('index.html')
 
+@app.route('/questions', methods=['GET'])
+def questions():
+    return render_template('infermedica.html')
+
 @app.route('/detect', methods=['POST'])
 def post_example():
     print(request)
